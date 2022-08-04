@@ -8,6 +8,7 @@ object FehEmiPlugin extends EmiPlugin {
   override def register(registry: EmiRegistry): Unit = 
     EmiToolRecipe.register(registry)
     EmiCrucibleRecipe.register(registry)
+    EmiHeatCrucibleRecipe.register(registry)
     EmiSiftingRecipe.register(registry)
     EmiAlchemyRecipe.register(registry)
     EmiCompostRecipe.register(registry)

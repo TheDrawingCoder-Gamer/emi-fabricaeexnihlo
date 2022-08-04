@@ -1,7 +1,8 @@
 {
 
-  "emi.category.fabricaeexnihilo.porcelain_crucible": "Heated Crucible",
+  "emi.category.fabricaeexnihilo.fireproof_crucible": "Heated Crucible",
   "emi.category.fabricaeexnihilo.crucible": "Crucible",
+  "emi.category.fabricaeexnihilo.crucible_heat": "Crucible",
   "emi.category.fabricaeexnihilo.sieve": "Sifting",
   "emi.category.fabricaeexnihilo.alchemy": "Alchemy",
   "emi.category.fabricaeexnihilo.fluid_transformation": "Fluid Transformation",

@@ -54,7 +54,7 @@ class EmiCrucibleRecipe(val recipe: CrucibleRecipe, val category: EmiRecipeCateg
 
 object EmiCrucibleRecipe {
   val crucibleCategory = EmiRecipeCategory(ModRecipes.CRUCIBLE.id, EmiStack.of(ItemUtils.getExNihiloItemStack("oak_crucible")))
-  val fireproofCrucibleCategory = EmiRecipeCategory(ModRecipes.CRUCIBLE.id, EmiStack.of(ItemUtils.getExNihiloItemStack("porcelain_crucible")))
+  val fireproofCrucibleCategory = EmiRecipeCategory(FabricaeExNihilo.id("fireproof_crucible"), EmiStack.of(ItemUtils.getExNihiloItemStack("porcelain_crucible")))
   def register(registry:EmiRegistry): Unit =
     registry.addCategory(crucibleCategory)
     registry.addCategory(fireproofCrucibleCategory)
